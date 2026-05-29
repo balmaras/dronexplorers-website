@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Drone Explorers</title>
+  <meta name="description" content="Get in touch with Drone Explorers for a free quote on aerial photography, video, or mapping services in Metro Atlanta." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/contact.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="nav" id="nav">
+    <a href="index.html" class="nav-logo">
+      <img src="images/logo-white.png" alt="Drone Explorers" class="nav-logo-img" />
+    </a>
+    <nav class="nav-links">
+      <a href="index.html#services">Services</a>
+      <a href="packages.html">Packages</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="contact.html" class="btn-primary nav-cta">Get a quote</a>
+    </nav>
+    <button class="nav-hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html#services">Services</a>
+    <a href="packages.html">Packages</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" class="btn-primary">Get a quote</a>
+  </div>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="section-label">Get in touch</span>
+      <h1 class="page-title">Request a free quote</h1>
+      <p class="page-sub">Tell us about your project and we'll get back to you within a few hours.</p>
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <h3>What to expect</h3>
+        <ul class="expect-list">
+          <li><span class="expect-num">01</span><div><strong>Quick response</strong><p>We reply to all inquiries within a few hours during business days.</p></div></li>
+          <li><span class="expect-num">02</span><div><strong>Free consultation</strong><p>We'll discuss your project, timeline, and recommend the right package.</p></div></li>
+          <li><span class="expect-num">03</span><div><strong>Easy booking</strong><p>Once you're ready, we'll confirm your shoot date and handle the rest.</p></div></li>
+        </ul>
+        <div class="contact-details">
+          <p><strong>Email</strong><br/><a href="mailto:hello@dronexplorers.com">hello@dronexplorers.com</a></p>
+          <p><strong>Service Area</strong><br/>Metro Atlanta, GA</p>
+        </div>
+      </div>
+
+      <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" placeholder="john@example.com" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone number (optional)</label>
+          <input type="tel" id="phone" name="phone" placeholder="(404) 555-0100" />
+        </div>
+        <div class="form-group">
+          <label for="service">Service needed</label>
+          <select id="service" name="service" required>
+            <option value="" disabled selected>Select a service</option>
+            <option value="real-estate-photo">Real Estate Photography</option>
+            <option value="aerial-video">Aerial Video</option>
+            <option value="construction">Construction Progress</option>
+            <option value="mapping">2D Mapping</option>
+            <option value="other">Other / Not sure</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="location">Project location</label>
+          <input type="text" id="location" name="location" placeholder="Alpharetta, GA" />
+        </div>
+        <div class="form-group">
+          <label for="message">Tell us about your project</label>
+          <textarea id="message" name="message" rows="5" placeholder="Property address, timeline, any special requirements..."></textarea>
+        </div>
+        <button type="submit" class="btn-primary btn-lg form-submit">Send my request</button>
+        <p class="form-note">We typically respond within a few hours on business days.</p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="images/logo-white.png" alt="Drone Explorers" class="footer-logo" />
+        <p>Professional drone services for Metro Atlanta. FAA Part 107 certified.</p>
+      </div>
+      <div class="footer-links-col">
+        <h5>Services</h5>
+        <a href="index.html#services">Real Estate Photography</a>
+        <a href="index.html#services">Aerial Video</a>
+        <a href="index.html#services">Construction Progress</a>
+        <a href="index.html#services">2D Mapping</a>
+      </div>
+      <div class="footer-links-col">
+        <h5>Company</h5>
+        <a href="about.html">About</a>
+        <a href="packages.html">Packages</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-links-col">
+        <h5>Connect</h5>
+        <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+        <a href="mailto:hello@dronexplorers.com">hello@dronexplorers.com</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Drone Explorers LLC · Alpharetta, GA · <a href="privacy.html">Privacy Policy</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
