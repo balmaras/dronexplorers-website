@@ -4,7 +4,7 @@ All notable changes to the Drone Explorers website will be documented here.
 
 ---
 
-## [0.2.0] — 2025-05-29
+## [0.2.0] — 2026-06-13
 
 ### Added
 - Logo images added to `images/` folder (`dx_white.png`, `dx_black.png`)
@@ -16,7 +16,7 @@ All notable changes to the Drone Explorers website will be documented here.
 
 ---
 
-## [0.1.0] — 2025-05-29 — Initial Build
+## [0.1.0] — 2026-05-29 — Initial Build
 
 ### Added
 - `index.html` — full homepage including:
